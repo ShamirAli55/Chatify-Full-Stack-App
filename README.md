@@ -136,10 +136,15 @@ React app runs at `http://localhost:3000`
 
 ---
 
-## 📸 Screenshots / Demo
+## 📸 Screenshots 
 
 <img src="/screenshots/1.png">
-
+<img src="/screenshots/2.png">
+<img src="/screenshots/3.png">
+<img src="/screenshots/4.png">
+<img src="/screenshots/5.png">
+<img src="/screenshots/6.png">
+<img src="/screenshots/7.png">
 ---
 
 ## 🧠 Learning Outcomes
