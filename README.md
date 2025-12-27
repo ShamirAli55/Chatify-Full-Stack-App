@@ -138,7 +138,7 @@ React app runs at `http://localhost:3000`
 
 ## 📸 Screenshots / Demo
 
-*(Optional: Add screenshots or a link to demo video here)*
+<img src="/screenshots/1.png">
 
 ---
 
