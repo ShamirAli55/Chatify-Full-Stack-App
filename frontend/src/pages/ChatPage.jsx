@@ -7,15 +7,15 @@ import ContactList from "../components/ContactList";
 import ChatContainer from "../components/ChatContainer";
 import NoConversationPlaceholder from "../components/NoConversationPlaceholder";
 
-const ChatPage = () => 
-{
-
+const ChatPage = () => {
   const { activeTab, selectedUser } = useChatStore();
+
   return (
-  <div className="relative w-full max-w-6xl h-[800px]">
+    <div className="absolute w-full max-w-6xl h-[600px] flex ">
       <BorderAnimatedContainer>
-        {/* LEFT SIDE */}
-        <div className="w-80 bg-slate-800/50 backdrop-blur-sm flex flex-col">
+
+        {/* LEFT SIDEBAR */}
+        <div className="w-80 bg-slate-800/50 backdrop-blur-sm flex flex-col shrink-0">
           <ProfileHeader />
           <ActiveTabSwitch />
 
@@ -24,13 +24,15 @@ const ChatPage = () =>
           </div>
         </div>
 
-        {/* RIGHT SIDE */}
+        {/* RIGHT CHAT */}
         <div className="flex-1 flex flex-col bg-slate-900/50 backdrop-blur-sm">
           {selectedUser ? <ChatContainer /> : <NoConversationPlaceholder />}
         </div>
+
       </BorderAnimatedContainer>
     </div>
-  )
-}
+  );
+};
+
 
 export default ChatPage
